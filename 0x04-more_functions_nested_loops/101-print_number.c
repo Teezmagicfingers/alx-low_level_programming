@@ -3,23 +3,23 @@
 
 /**
  * print_number - Prints an integer.
- * @n: The integer to prints.
+ * @n: The integer parameter
  * Return: always 0
  */
 
 void print_number(int n)
 
 {
-	unsigned int k = n;
+	unsigned int i = n;
 
 	if (n < 0)
 	{
-	n *= -1;
-	k = n;
-	_putchar('_');
+		_putchar(45);
+		i = -i;
 	}
-	k i/= 10;
-	if (k != 0)
-	print_number(k);
-	_putchar((unsigned int) n % 10 + '0');
+	if (i / 10)
+	{
+		print_number(i / 10);
+	}
+	_putchar(i % 10 + '0');
 }
