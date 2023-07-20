@@ -1,8 +1,12 @@
 #include "main.h"
 
+
 /**
- * main - computes the sum of all
- * the multiples of 3 or 5 bellow 1024 (excluded)
+ * main - Entry point 
+ *
+ * Description: computes the sum of all
+ * 		the multiples of 3 or 5
+ *		bellow 1024 (excluded)
  *
  * Return: Always (Success)
  */
